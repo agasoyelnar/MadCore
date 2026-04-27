@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/service.css">
+    <title>Service</title>
+</head>
+
+<body>
+   <!-- Elnar -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <a><i class="fa-solid fa-phone"></i> +012 345 6789</a>
+                    <span class="separator">|</span>
+                    <a><i class="fa-solid fa-envelope"></i> info@example.com</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://x.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <i class="fa-solid fa-house-medical"></i>
+                    <span class="logospan">MEDCORE</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-a">Home</a></li>
+                    <li><a href="./about.html" class="nav-a">About</a></li>
+                    <li><a href="./service.html" class="nav-a">Service</a></li>
+                    <li><a href="./pricing.html" class="nav-a">Pricing</a></li>
+                    <li><a href="#" class="nav-a">Pages <i class="fa-solid fa-caret-down"></i></a></li>
+                    <li><a href="./contact.html" class="nav-a">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Cumsud -->
+    <section class="section-services">
+        <p class="section-tag">SERVICES</p>
+        <h2 class="section-title">Excellent Medical Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon-wrap"><i class="fas fa-user-injured"></i></div>
+                <h3>Emergency Care</h3>
+                <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon-wrap"><i class="fas fa-procedures"></i></div>
+                <h3>Operation &amp; Surgery</h3>
+                <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon-wrap"><i class="fas fa-stethoscope"></i></div>
+                <h3>Outdoor Checkup</h3>
+                <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon-wrap"><i class="fas fa-ambulance"></i></div>
+                <h3>Ambulance Service</h3>
+                <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon-wrap"><i class="fas fa-pills"></i></div>
+                <h3>Medicine &amp; Pharmacy</h3>
+                <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon-wrap"><i class="fas fa-microscope"></i></div>
+                <h3>Blood Testing</h3>
+                <p>Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Hemid -->
+    <section class="section-appointment">
+        <div class="appointment-inner">
+            <div class="appt-left">
+                <p class="section-tag">APPOINTMENT</p>
+                <h2 class="section-title">Make An Appointment For Your Family</h2>
+                <p>Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at
+                    sea
+                    ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod
+                    et.
+                    Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata
+                    takimata sanctus sed.</p>
+                <div class="btn-group">
+                    <button class="btn-dark">Find Doctor</button>
+                    <button class="btn-outline">Read More</button>
+                </div>
+            </div>
+            <div class="appt-right">
+                <div class="appt-form-card">
+                    <h3>Book An Appointment</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <select id="department" onchange="this.classList.add('filled')">
+                                <option value="" disabled selected>Choose Department</option>
+                                <option>Cardiology</option>
+                                <option>Neurology</option>
+                                <option>Orthopedics</option>
+                                <option>Pediatrics</option>
+                                <option>Dermatology</option>
+                            </select>
+                            <span class="select-arrow"><i class="fas fa-chevron-down"></i></span>
+                        </div>
+                        <div class="form-group">
+                            <select id="doctor" onchange="this.classList.add('filled')">
+                                <option value="" disabled selected>Select Doctor</option>
+                                <option>Dr. John Smith</option>
+                                <option>Dr. Sarah Johnson</option>
+                                <option>Dr. Michael Lee</option>
+                                <option>Dr. Emily Brown</option>
+                            </select>
+                            <span class="select-arrow"><i class="fas fa-chevron-down"></i></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group" style="position:relative">
+                            <div class="form-group">
+                                <input type="text" placeholder="Time" onfocus="(this.type='time')"
+                                    onblur="(this.type='text')">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Date" onfocus="(this.type='date')"
+                                onblur="(this.type='text')">
+                        </div>
+
+                    </div>
+                    <button class="btn-teal" onclick="submitAppointment()">Make An Appointment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-testimonials">
+        <p class="section-tag">TESTIMONIAL</p>
+        <h2 class="section-title" style="margin-bottom:50px">Patients Say About Our Services</h2>
+        <div class="testimonial-slider">
+
+            <div class="testimonial-slide active">
+                <img class="patient-avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Patient" />
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <p class="testimonial-text">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
+                    lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor
+                    rebum sit ipsum.</p>
+                <div class="testimonial-divider"></div>
+                <p class="patient-name">Sarah Williams</p>
+                <p class="patient-profession">Nurse</p>
+            </div>
+
+            <div class="testimonial-slide">
+                <img class="patient-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Patient" />
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <p class="testimonial-text">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
+                    lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor
+                    rebum sit ipsum.</p>
+                <div class="testimonial-divider"></div>
+                <p class="patient-name">James Carter</p>
+                <p class="patient-profession">Engineer</p>
+            </div>
+
+            <div class="testimonial-slide">
+                <img class="patient-avatar" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Patient" />
+                <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                <p class="testimonial-text">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
+                    lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat. Erat dolor
+                    rebum sit ipsum.</p>
+                <div class="testimonial-divider"></div>
+                <p class="patient-name">Linda Moore</p>
+                <p class="patient-profession">Teacher</p>
+            </div>
+
+            <div class="slider-dots">
+                <div class="dot" onclick="goToSlide(0)"></div>
+                <div class="dot" onclick="goToSlide(1)"></div>
+                <div class="dot active" onclick="goToSlide(2)"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cumsud -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-col">
+                <h4>GET IN TOUCH</h4>
+                <p>No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
+            </div>
+            <div class="footer-col">
+                <h4>QUICK LINKS</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Meet The Team</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>POPULAR LINKS</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Meet The Team</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>NEWSLETTER</h4>
+                <div class="newsletter-row">
+                    <input type="email" placeholder="Your Email Address" />
+                    <button>Sign Up</button>
+                </div>
+                <span class="follow-label">FOLLOW US</span>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 MEDINOVA. All Rights Reserved.
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+</body>
+
+</html>
