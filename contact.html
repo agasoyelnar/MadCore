@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/pricing.css">
-    <title>MedCore Pricing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <title>Contact</title>
 </head>
 
 <body>
-    <!-- Elnar -->
+
     <header class="">
 
         <div class="top-bar">
@@ -39,18 +38,16 @@
                     <i class="fa-solid fa-house-medical"></i>
                     <span class="logospan">MEDCORE</span>
                 </div>
-                <div class="hamburger" id="hamburger">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+
                 <div class="nav-wrapper">
                     <ul class="nav-links">
                         <li><a href="index.html" class="nav-a home-link">Home</a></li>
                         <li><a href="./about.html" class="nav-a has-underline">About</a></li>
                         <li><a href="./service.html" class="nav-a has-underline">Service</a></li>
-                        <li><a href="./pricing.html" class="nav-a has-underline active">Pricing</a></li>
-                        <li><a href="#" class="nav-a has-underline">Pages <i class="fa-solid fa-caret-down"></i></a>
+                        <li><a href="./pricing.html" class="nav-a has-underline">Pricing</a></li>
+                        <li><a href="#" class="nav-a has-underline ">Pages <i class="fa-solid fa-caret-down"></i></a>
                         </li>
-                        <li><a href="./contact.html" class="nav-a has-underline">Contact</a></li>
+                        <li><a href="./contact.html" class="nav-a has-underline active">Contact</a></li>
                         <li class="auth-buttons">
                             <a href="login.html" class="login-btn">Login</a>
                             <a href="register.html" class="register-btn">Register</a>
@@ -62,83 +59,47 @@
 
 
     </header>
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-wrapper">
 
+                <div class="contact-info-box">
+                    <span class="sub-title">Contact Us</span>
+                    <h2>Get In Touch With Us</h2>
+                    <p>You can get more detailed information about our services by contacting us.</p>
 
-    <main>
-        <section id="pricing">
-            <div class="pricing_container">
-                <div class="pricing-top">
-                    <h5 class="pricing-h5">MEDICAL PACKAGES</h5>
-                    <h1>Awesome Medical Programs</h1>
-                </div>
-
-                <div class="pricing-bottom">
-                    <div class="price-card">
-                        <div class="card-header">
-                            <img src="./assets/image/operation.jpg" alt="Pregnancy Care">
-                            <div class="header-overlay">
-                                <h3>Operation & Surgery</h3>
-
-                                <p class="price"><sup>$</sup>49 <span>/ Year</span></p>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>Emergency Medical Treatment</li>
-                                <li>Highly Experienced Doctors</li>
-                                <li>Highest Success Rate</li>
-                                <li>Telephone Service</li>
-                            </ul>
-                            <a href="#" class="apply-btn">Apply Now</a>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="info-text">
+                            <h4>Location</h4>
+                            <p>Baki city, Nesimi region</p>
                         </div>
                     </div>
 
-                    <div class="price-card">
-                        <div class="card-header">
-                            <img src="./assets/image/health.jpg" alt="Health Checkup">
-                            <div class="header-overlay">
-                                <h3>Health Checkup</h3>
-                                <p class="price"><sup>$</sup>99 <span>/ Year</span></p>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>Emergency Medical Treatment</li>
-                                <li>Highly Experienced Doctors</li>
-                                <li>Highest Success Rate</li>
-                                <li>Telephone Service</li>
-                            </ul>
-                            <a href="#" class="apply-btn">Apply Now</a>
-                        </div>
-                    </div>
-
-                    <div class="price-card">
-                        <div class="card-header">
-                            <img src="./assets/image/dental.jpg" alt="Dental Care">
-                            <div class="header-overlay">
-                                <h3>Dental Care</h3>
-                                <p class="price"><sup>$</sup>149 <span>/ Year</span></p>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <ul>
-                                <li>Emergency Medical Treatment</li>
-                                <li>Highly Experienced Doctors</li>
-                                <li>Highest Success Rate</li>
-                                <li>Telephone Service</li>
-                            </ul>
-                            <a href="#" class="apply-btn">Apply Now</a>
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="info-text">
+                            <h4>Phone</h4>
+                            <p>+012 345 6789</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="slider-controls">
-                    <span class="arrow">&larr;</span>
-                    <span class="arrow">&rarr;</span>
+                <div class="contact-form">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" placeholder="Your Name" required>
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Your Message" rows="5"></textarea>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
                 </div>
+
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <footer>
         <!-- Cumsud -->
@@ -187,10 +148,6 @@
             &copy; 2026 MEDINOVA. All Rights Reserved.
         </div>
     </footer>
-
-    <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
-        <i class="fas fa-arrow-up"></i>
-    </button>
 </body>
 
 </html>
